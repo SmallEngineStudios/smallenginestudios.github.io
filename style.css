@@ -32,9 +32,12 @@ header.site {
 .hero { padding: 72px 0 48px; display: flex; align-items: center; gap: 48px; }
 .hero-text { flex: 1 1 auto; min-width: 0; }
 .hero-weldon { width: 290px; flex: none; height: auto; }
-.weldon-large { width: 400px; }
 .meet-link { color: var(--accent); font-weight: 600; text-decoration: none; }
 .meet-link:hover { text-decoration: underline; }
+.weldon-signoff { text-align: center; padding: 24px 0 8px; }
+.weldon-small { width: 150px; height: auto; }
+.signoff-contact { color: var(--muted); font-size: 14px; margin: 12px 0 0; }
+.signoff-contact a { color: var(--accent); font-weight: 600; }
 .shop-rules { margin: 0; padding-left: 22px; color: var(--muted); }
 .shop-rules li { margin: 8px 0; }
 .shop-rules li::marker { color: var(--accent); font-weight: 700; }
@@ -90,6 +93,5 @@ footer.site a { color: var(--muted); }
   h1 { font-size: 32px; }
   .hero { padding: 48px 0 32px; flex-direction: column; align-items: flex-start; gap: 24px; }
   .hero-weldon { width: 200px; }
-  .weldon-large { width: 260px; }
   .site-nav { gap: 14px; }
 }
