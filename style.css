@@ -1,0 +1,69 @@
+:root {
+  --ink: #1c1a17;
+  --muted: #6b645a;
+  --paper: #faf8f4;
+  --card: #ffffff;
+  --line: #e8e2d6;
+  --accent: #b3541e;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  color: var(--ink);
+  background: var(--paper);
+  line-height: 1.6;
+}
+.wrap { max-width: 720px; margin: 0 auto; padding: 0 24px; }
+header.site {
+  padding: 28px 0;
+  border-bottom: 1px solid var(--line);
+  display: flex; align-items: center; gap: 12px;
+}
+.brand { font-weight: 700; letter-spacing: 0.04em; font-size: 15px; text-transform: uppercase; }
+.brand small { display: block; font-weight: 400; color: var(--muted); letter-spacing: 0.02em; text-transform: none; font-size: 13px; }
+.gear { width: 34px; height: 34px; flex: none; }
+.hero { padding: 72px 0 48px; }
+.eyebrow { color: var(--accent); font-size: 13px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; margin: 0 0 12px; }
+h1 { font-size: 40px; line-height: 1.15; margin: 0 0 16px; letter-spacing: -0.01em; }
+.lede { font-size: 18px; color: var(--muted); margin: 0; max-width: 34em; }
+section { padding: 32px 0; }
+h2 { font-size: 22px; margin: 0 0 16px; }
+.app-card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 28px;
+}
+.app-card h3 { margin: 0 0 4px; font-size: 24px; }
+.tagline { color: var(--accent); font-weight: 600; margin: 0 0 12px; font-size: 15px; }
+.app-card p { margin: 0 0 16px; color: var(--muted); }
+.badge {
+  display: inline-block;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 6px 14px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--muted);
+  background: var(--paper);
+}
+.contact a { color: var(--accent); font-weight: 600; }
+footer.site {
+  border-top: 1px solid var(--line);
+  margin-top: 48px;
+  padding: 24px 0 48px;
+  color: var(--muted);
+  font-size: 14px;
+  display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap;
+}
+footer.site a { color: var(--muted); }
+.policy h1 { font-size: 32px; }
+.policy h2 { font-size: 18px; margin-top: 32px; }
+.policy p, .policy li { color: #3d3831; }
+.policy ul { padding-left: 20px; }
+.updated { color: var(--muted); font-size: 14px; }
+@media (max-width: 520px) {
+  h1 { font-size: 32px; }
+  .hero { padding: 48px 0 32px; }
+}
