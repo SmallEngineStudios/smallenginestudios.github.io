@@ -49,6 +49,7 @@ h2 { font-size: 22px; margin: 0 0 16px; }
   background: var(--paper);
 }
 .contact a { color: var(--accent); font-weight: 600; }
+.more { color: var(--muted); margin-top: 16px; }
 footer.site {
   border-top: 1px solid var(--line);
   margin-top: 48px;
