@@ -19,13 +19,28 @@ header.site {
   padding: 28px 0;
   border-bottom: 1px solid var(--line);
   display: flex; align-items: center; gap: 12px;
+  justify-content: space-between; flex-wrap: wrap;
 }
+.brand-link { display: flex; align-items: center; gap: 12px; text-decoration: none; color: inherit; }
+.site-nav { display: flex; gap: 20px; }
+.site-nav a { color: var(--muted); text-decoration: none; font-size: 14px; font-weight: 600; }
+.site-nav a:hover { color: var(--accent); }
+.site-nav a.active { color: var(--accent); }
 .brand { font-weight: 700; letter-spacing: 0.04em; font-size: 15px; text-transform: uppercase; }
 .brand small { display: block; font-weight: 400; color: var(--muted); letter-spacing: 0.02em; text-transform: none; font-size: 13px; }
 .gear { width: 34px; height: 34px; flex: none; }
 .hero { padding: 72px 0 48px; display: flex; align-items: center; gap: 48px; }
 .hero-text { flex: 1 1 auto; min-width: 0; }
 .hero-weldon { width: 290px; flex: none; height: auto; }
+.weldon-large { width: 400px; }
+.meet-link { color: var(--accent); font-weight: 600; text-decoration: none; }
+.meet-link:hover { text-decoration: underline; }
+.shop-rules { margin: 0; padding-left: 22px; color: var(--muted); }
+.shop-rules li { margin: 8px 0; }
+.shop-rules li::marker { color: var(--accent); font-weight: 700; }
+.cta { text-align: center; padding: 16px 0 8px; }
+.cta .meet-link { font-size: 18px; }
+.bolt { opacity: 0.4; cursor: default; margin-left: 8px; }
 .weldon { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 32px; margin: 8px 0; }
 .weldon h3 { font-size: 16px; margin: 24px 0 8px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--accent); font-size: 13px; }
 .field-notes { margin: 0; padding-left: 20px; color: var(--muted); }
@@ -75,4 +90,6 @@ footer.site a { color: var(--muted); }
   h1 { font-size: 32px; }
   .hero { padding: 48px 0 32px; flex-direction: column; align-items: flex-start; gap: 24px; }
   .hero-weldon { width: 200px; }
+  .weldon-large { width: 260px; }
+  .site-nav { gap: 14px; }
 }
