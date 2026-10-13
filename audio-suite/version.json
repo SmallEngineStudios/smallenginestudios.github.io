@@ -1,0 +1,6 @@
+{
+  "latest": "1.4.0",
+  "url": "https://smallenginestudios.github.io/audio-suite/AudioSuite-VST3-Windows-1.4.0.zip",
+  "sha256": "70170a0ffbe10e7efbb0660f467b1386b999902f784f4892e9d72c79bdfbb33c",
+  "notes": "v1.4.0: resizable editors; corrected value readouts (real dB/Hz/ms, type-in exact values); click-free slider moves (parameter smoothing + silent reverb rebuilds); 5x faster saturation, ~40% lighter reverb; per-plugin Monitor In/Out; right-click resets any control to default; in-plugin update check with one-click download."
+}
